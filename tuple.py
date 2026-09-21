@@ -1,10 +1,10 @@
-tuples = ((10, 20), (5, 15, 25), (1, 2, 3, 4))
+data = ((10, 20), (5, 15, 25), (1, 2, 3, 4))
 
-max_tuple = tuples[0]
+largest = data[0]
 
-for t in tuples:
-    if len(t) > len(max_tuple):
-        max_tuple = t
+for t in data:
+    if len(t) > len(largest):
+        largest = t
 
-print("Tuple with more numbers:", max_tuple)
-print("Number of numbers:", len(max_tuple))
+print("Tuple with more numbers:", largest)
+print("Number of numbers:", len(largest))
